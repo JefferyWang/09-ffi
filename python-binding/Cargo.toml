@@ -11,3 +11,4 @@ crate-type = ["cdylib"]
 [dependencies]
 algo = { workspace = true }
 pyo3 = { version = "0.22", features = ["extension-module"] }
+roaring = "0.10.6"
